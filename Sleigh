@@ -1,18 +1,17 @@
 public class Sleigh
 {
   public int posX;
-  public int posY;
+  public static final posY = 0;
 
-  public Sleigh(int posX, int posY)
+
+  public Sleigh(int posX)
   {
     this.posX = posX;
-    this.posY = posY;
   }
 
-  public movement(int changeX, int changeY)
+  public movement(int changeX)
   {
     posX += changeX;
-    posY += changeY;
   }  
 
 }
